@@ -15,7 +15,6 @@
   "esmodules": [
     "scripts/terpsichore.mjs"
   ],
-  "templates": [
-    "templates/dialog-form.hbs"
-  ]
+  "manifest": "https://raw.githubusercontent.com/ndguarino/terpsichore/refs/heads/main/module.json",
+  "download": "https://github.com/ndguarino/terpsichore/releases/download/v0.1.0/terpsichore-main.zip"
 }

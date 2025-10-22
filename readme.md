@@ -2,6 +2,8 @@
 
 This is a music downloader for FoundryVTT using yt-dlp under the hood.
 
+Manifest URL: `https://raw.githubusercontent.com/ndguarino/terpsichore/refs/heads/main/module.json`
+
 ### Requirements
 
 * FoundryVTT V13+
