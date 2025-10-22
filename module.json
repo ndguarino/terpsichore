@@ -1,0 +1,21 @@
+{
+  "id": "terpsichore",
+  "title": "Terpsichore Music Manager",
+  "description": "A music downloader for FoundryVTT",
+  "authors": [
+    {
+      "name": "ndguarino"
+    }
+  ],
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "esmodules": [
+    "scripts/terpsichore.mjs"
+  ],
+  "templates": [
+    "templates/dialog-form.hbs"
+  ]
+}

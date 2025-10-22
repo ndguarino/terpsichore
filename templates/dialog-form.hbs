@@ -1,0 +1,19 @@
+<div>
+  <div class="form-group">
+    <label for="terpsichore.playlist">Playlist</label>
+    <select name="terpsichore.playlist" id="terpsichore.playlist">
+      {{ selectOptions terpsichore.playlists valueAttr="key" labelAttr="label" }}
+    </select>
+  </div>
+  <br />
+  <div class="form-group">
+    <label for="terpsichore.url">Media URL</label>
+    <input name="terpsichore.url" id="terpsichore.url" type="text">
+  </div>
+  <br />
+  <div class="form-group">
+    <label for="terpsichore.name">Name (Optional)</label>
+    <input name="terpsichore.name" id="terpsichore.name" type="text">
+  </div>
+  <br />
+</div>
