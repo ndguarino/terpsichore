@@ -21,7 +21,7 @@ Hooks.once("init", function() {
 Hooks.on('renderPlaylistDirectory', async (_, html) => {
   if (!Terpsichore.available) return;
 
-  // TODO permission check
+  if (!game.user.isGM) return;
   const renderTo = document.querySelector("#playlists>header>.header-actions");
 
   const container = document.createElement('div');
