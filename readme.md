@@ -13,8 +13,9 @@ This is a music downloader for FoundryVTT using yt-dlp under the hood.
 
 1. Set up and mount a patches directory (see readme in [felddy/foundryvtt-docker])
 2. Install the plugin
-3. Copy the server patch from `Data/modules/terpsichore/server/terpsichore_server_v13.sh` to your patch directory
-4. Restart the container (if using compose, down + up rather than restart/stop/start)
+3. Extract statically compiled ffmpeg binaries to `Data/modules/terpsichore/bin/`. See https://github.com/BtbN/FFmpeg-Builds/releases/tag/latest, you will want `latest-linux64-lgpl.tar.gz`
+4. Copy the server patch from `Data/modules/terpsichore/server/terpsichore_server_v13.sh` to your patch directory
+5. Restart the container (if using compose, down + up rather than restart/stop/start)
 
 ### Installation (manual)
 
